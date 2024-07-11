@@ -1,0 +1,60 @@
+Results for Random Forest:
+MAE: 1.0100000000000007
+MSE: 2.054322222222223
+RMSE: 1.433290697040284
+R²: 0.9929052570990023
+
+Feature Importance for Random Forest:
+      Feature  Importance
+2       PM2.5    0.480692
+1      Status    0.398673
+3        PM10    0.092942
+7   CO levels    0.008353
+4        Temp    0.006954
+5       Humid    0.005362
+0   LOCATIONS    0.002743
+6  SO2 levels    0.001852
+9  NO2 levels    0.001819
+8       Ozone    0.000609
+
+
+Results for XGBoost:
+MAE: 0.9944169786241319
+MSE: 4.157373387156339
+RMSE: 2.038963802316348
+R²: 0.9856422254472728
+
+Feature Importance for XGBoost:
+      Feature  Importance
+1      Status    0.915727
+2       PM2.5    0.052394
+7   CO levels    0.029114
+3        PM10    0.002260
+4        Temp    0.000426
+0   LOCATIONS    0.000060
+5       Humid    0.000019
+6  SO2 levels    0.000000
+8       Ozone    0.000000
+9  NO2 levels    0.000000
+
+
+Results for Linear Regression:
+MAE: 1.547226298259723
+MSE: 5.459336978597885
+RMSE: 2.336522411319413
+R²: 0.9811458047554179
+
+Feature Importance for Linear Regression:
+      Feature  Importance
+1      Status    5.655768
+2       PM2.5    1.793203
+9  NO2 levels    1.189294
+6  SO2 levels    0.680556
+4        Temp    0.590292
+0   LOCATIONS    0.347938
+8       Ozone    0.343637
+3        PM10    0.292971
+5       Humid    0.096301
+7   CO levels    0.043323
+
+
